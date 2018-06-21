@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="Lectura_y_Escritura_con_java.io" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Lectura y Escritura con java.io.</description>
+<project name="20._Utilizando_FileStream" default="default" basedir=".">
+    <description>Builds, tests, and runs the project 20. Utilizando FileStream.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -58,7 +58,7 @@
 
     An example of overriding the target for project execution could look like this:
 
-        <target name="run" depends="Lectura_y_Escritura_con_java.io-impl.jar">
+        <target name="run" depends="20._Utilizando_FileStream-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
